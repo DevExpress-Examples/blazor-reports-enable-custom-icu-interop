@@ -1,0 +1,22 @@
+﻿@using BlazorWasmCustomIcuInteropExample.Client
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <base href="/"/>
+    @* <script src="/download.js"></script> *@
+    @DxResourceManager.RegisterTheme(Themes.Fluent)
+    @DxResourceManager.RegisterScripts()
+    <link rel="stylesheet"
+          href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css">
+
+    <HeadOutlet @rendermode="InteractiveWebAssembly"/>
+</head>
+<body>
+<Routes @rendermode="InteractiveWebAssembly"/>
+<script src="_framework/blazor.web.js"></script>
+</body>
+
+</html>

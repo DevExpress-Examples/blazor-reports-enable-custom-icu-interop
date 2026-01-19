@@ -1,0 +1,31 @@
+﻿@page "/"
+@using BlazorWasmCustomIcuInteropExample.Client.Reports
+
+@inject IHttpClientFactory httpClientFactory
+
+<DevExpress.Blazor.Reporting.DxReportViewer @ref="this.DxReportViewer"></DevExpress.Blazor.Reporting.DxReportViewer>
+
+@code{
+    private DevExpress.Blazor.Reporting.DxReportViewer DxReportViewer;
+    private TestReport TestReport;
+
+    List<string> _requiredFonts = [
+        "Benne-Regular.ttf",
+        "arial.ttf",
+    ];
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var http = httpClientFactory.CreateClient("local");
+            await FontLoader.LoadFonts(http, _requiredFonts);
+            
+            TestReport = new TestReport();
+            await DxReportViewer.OpenReportAsync(TestReport);
+        }
+        await base.OnAfterRenderAsync(firstRender);
+    }
+}
+
+

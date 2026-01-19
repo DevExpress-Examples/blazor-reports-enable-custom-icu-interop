@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="25.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.7" />
+    <PackageReference Include="DevExpress.Blazor" Version="25.2.3" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="25.2.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.14.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorWasmCustomIcuInteropExample.Client\BlazorWasmCustomIcuInteropExample.Client.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Layout\Drawer.razor" />
+    <_ContentIncludedByDefault Remove="Components\Layout\NavMenu.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Error.razor" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\log-in-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\log-in.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\log-out-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\log-out.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-email-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-email.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-password-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-password.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-personal-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-personal.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-profile-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-profile.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-two-factor-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\manage-two-factor.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\facebook-logo-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\facebook-logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\google-logo-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\google-logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\microsoft-logo-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\microsoft-logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\x-logo-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\providers\x-logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\settings-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\settings.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\user-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\account\user.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\back-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\back.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\cards.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\close-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\close.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\counter-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\counter.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\demos-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\demos.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\doc-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\doc.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\home-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\home.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\menu-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\menu.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\weather-fluent.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\weather.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
+  </ItemGroup>
+</Project>
