@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Blazor Reports  - How to Enable Custom Custom ICU Interop (.NET Blazor WASM) for Complex Typography
+# Blazor Reports  - How to Enable Custom ICU Interop (.NET Blazor WASM) for Complex Typography
 
 This example incorporates advanced ICU capabilities in DevExpress-powered Blazor WASM apps through custom native wrappers/ICU data files and integrates them with DevExpress ICU interop.
 
