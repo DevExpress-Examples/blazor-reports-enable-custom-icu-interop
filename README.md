@@ -60,6 +60,11 @@ Download the corresponding archive from GitHub:
 | -------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 | .NET 8   | 68          | [icu4c-68.2-data-bin-l.zip](https://github.com/unicode-org/icu/releases/download/release-68-2/icu4c-68.2-data-bin-l.zip) |
 | .NET 9   | 68          | [icu4c-68.2-data-bin-l.zip](https://github.com/unicode-org/icu/releases/download/release-68-2/icu4c-68.2-data-bin-l.zip) |
+
+v26.2 or later:
+
+| .NET SDK | ICU version | Download                                                                                                                 |
+| -------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 | .NET 10  | 72          | [icu4c-72_1-data-bin-l.zip](https://github.com/unicode-org/icu/releases/download/release-72-1/icu4c-72_1-data-bin-l.zip) |
 
 Extract the .dat file from the archive and include it in your project.
