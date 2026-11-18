@@ -1,5 +1,5 @@
 using DevExpress.Drawing.Internal.Fonts.Interop;
-using BlazorWasmCustomIcuInteropExample.Client.Native;
+using IcuInteropExample.Client.Native;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.Services.AddDevExpressBlazor(options => {

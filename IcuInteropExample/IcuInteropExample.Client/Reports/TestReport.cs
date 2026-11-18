@@ -4,7 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
 
-namespace BlazorWasmCustomIcuInteropExample.Client.Reports
+namespace IcuInteropExample.Client.Reports
 {
     public partial class TestReport : DevExpress.XtraReports.UI.XtraReport
     {

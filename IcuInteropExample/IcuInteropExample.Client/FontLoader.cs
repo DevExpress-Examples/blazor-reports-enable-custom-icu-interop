@@ -1,5 +1,5 @@
 ﻿using DevExpress.Drawing;
-namespace BlazorWasmCustomIcuInteropExample.Client
+namespace IcuInteropExample.Client
 {
     public static class FontLoader
     {
