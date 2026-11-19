@@ -49,7 +49,7 @@ int ubidi_countRuns_wrapper(void* pBiDi, int* errorCode) {
 ...
 ```
 
-File to review: [wrapper.c](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/wrapper.c)
+File to review: [wrapper.c](IcuInteropExample/IcuInteropExample.Client/Native/wrapper.c)
 
 ### Supply ICU Data Required for WASM
 
@@ -80,7 +80,7 @@ Extract the .dat file from the archive and include it in your project.
 >[!Note]
 >The file name must start with icudt (for example, icudt_custom.dat) because this is required by the WASM toolchain.
 
-File to review: [icudt_custom.dat](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/icudt_custom.dat)
+File to review: [icudt_custom.dat](IcuInteropExample/IcuInteropExample.Client/Native/icudt_custom.dat)
 
 ### Implement a Custom ICU Interop Class
 
@@ -100,7 +100,7 @@ public class CustomInterop : ICustomICUInterop {
 }
 ```
 
-File to review: [IcuInterop.cs](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/IcuInterop.cs)
+File to review: [IcuInterop.cs](IcuInteropExample/IcuInteropExample.Client/Native/IcuInterop.cs)
 
 >[!Important]
 >The library name in DllImport must match the wrapper file name without extension.
@@ -117,16 +117,16 @@ Assign your custom interop implementation during application initialization:
 ICUInterop.CustomIcuInterop = new CustomInterop();
 ```
 
-File to review: [Program.cs](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Program.cs)
+File to review: [Program.cs](IcuInteropExample/IcuInteropExample.Client/Program.cs)
 
 Once this is complete, DevExpress components will route all ICU dependent operations through your implementation and use the full ICU data you supplied.
 
 ## Files to Review
 
-* [wrapper.c](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/wrapper.c)
-* [icudt_custom.dat](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/icudt_custom.dat)
-* [IcuInterop.cs](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Native/IcuInterop.cs)
-* [Program.cs](BlazorWasmCustomIcuInteropExample/BlazorWasmCustomIcuInteropExample.Client/Program.cs) 
+* [wrapper.c](IcuInteropExample/IcuInteropExample.Client/Native/wrapper.c)
+* [icudt_custom.dat](IcuInteropExample/IcuInteropExample.Client/Native/icudt_custom.dat)
+* [IcuInterop.cs](IcuInteropExample/IcuInteropExample.Client/Native/IcuInterop.cs)
+* [Program.cs](IcuInteropExample/IcuInteropExample.Client/Program.cs) 
 
 <!-- feedback -->
 ## Does This Example Address Your Development Requirements/Objectives?

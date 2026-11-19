@@ -1,4 +1,4 @@
-﻿namespace BlazorWasmCustomIcuInteropExample.Client.Reports
+﻿namespace IcuInteropExample.Client.Reports
 {
     partial class TestReport
     {

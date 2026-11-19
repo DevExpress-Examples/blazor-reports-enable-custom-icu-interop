@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmCustomIcuInteropExample", "BlazorWasmCustomIcuInteropExample\BlazorWasmCustomIcuInteropExample\BlazorWasmCustomIcuInteropExample.csproj", "{0F089CF4-59AA-4878-96B8-93BC6D923DF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcuInteropExample", "IcuInteropExample\IcuInteropExample\IcuInteropExample.csproj", "{0F089CF4-59AA-4878-96B8-93BC6D923DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmCustomIcuInteropExample.Client", "BlazorWasmCustomIcuInteropExample\BlazorWasmCustomIcuInteropExample.Client\BlazorWasmCustomIcuInteropExample.Client.csproj", "{C1517A37-FA52-44E7-ACA4-951DF4C7ED39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcuInteropExample.Client", "IcuInteropExample\IcuInteropExample.Client\IcuInteropExample.Client.csproj", "{C1517A37-FA52-44E7-ACA4-951DF4C7ED39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

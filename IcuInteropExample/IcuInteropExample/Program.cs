@@ -1,7 +1,7 @@
-using BlazorWasmCustomIcuInteropExample.Components;
+using IcuInteropExample.Components;
 using DevExpress.Blazor;
 using DevExpress.Blazor.Reporting;
-using _Imports = BlazorWasmCustomIcuInteropExample.Client._Imports;
+using _Imports = IcuInteropExample.Client._Imports;
 
 var builder = WebApplication.CreateBuilder(args);
 

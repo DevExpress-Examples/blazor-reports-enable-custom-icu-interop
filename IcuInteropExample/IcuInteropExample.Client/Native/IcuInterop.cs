@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using DevExpress.Drawing.Internal.Fonts.Interop;
-namespace BlazorWasmCustomIcuInteropExample.Client.Native {
+namespace IcuInteropExample.Client.Native {
     public class IcuInterop : ICustomICUInterop {
 
         [DllImport("wrapper")]

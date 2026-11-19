@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="25.2.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.15" />
     <PackageReference Include="DevExpress.Blazor" Version="25.2.3" />
     <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="25.2.3" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.14.0" />
@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BlazorWasmCustomIcuInteropExample.Client\BlazorWasmCustomIcuInteropExample.Client.csproj" />
+    <ProjectReference Include="..\IcuInteropExample.Client\IcuInteropExample.Client.csproj" />
   </ItemGroup>
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Components\Layout\Drawer.razor" />
